@@ -1,0 +1,4 @@
+﻿username,groupname,shell
+rob,admin/lecturer,/bin/bash
+ola,lecturer,/bin/bash
+andy,student,/bin/bash

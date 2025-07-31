@@ -1,0 +1,33 @@
+Jul 15 08:35:23 server1 sshd[12345]: Accepted publickey for user1 from 192.168.1.10 port 53022 ssh2
+Jul 15 08:35:23 server1 sshd[12345]: pam_unix(sshd:session): session opened for user user1 by (uid=0)
+Jul 15 08:36:10 server1 sshd[12345]: pam_unix(sshd:session): session closed for user user1
+Jul 15 08:45:34 server1 kernel: [763425.643212] EXT4-fs error (device sda1): ext4_find_entry:1453: inode #56732: comm rsync: reading directory lblock 0
+Jul 15 08:45:34 server1 kernel: [763425.643214] EXT4-fs (sda1): previous I/O error to superblock detected
+Jul 15 08:46:10 server1 systemd[1]: Starting Daily apt download activities...
+Jul 15 08:46:12 server1 systemd[1]: apt-daily.service: Failed to start apt-daily.service.
+Jul 15 08:46:12 server1 systemd[1]: apt-daily.service: Unit entered failed state.
+Jul 15 08:46:12 server1 systemd[1]: apt-daily.service: Failed with result 'exit-code'.
+Jul 15 08:50:23 server1 systemd[1]: Reloading The Apache HTTP Server...
+Jul 15 08:50:24 server1 systemd[1]: Reloaded The Apache HTTP Server.
+Jul 15 09:12:45 server1 CRON[5678]: (root) CMD (/usr/local/bin/backup.sh)
+Jul 15 09:12:46 server1 kernel: [763627.424215] FAT-fs (sdb1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+Jul 15 09:15:10 server1 sshd[54321]: Failed password for invalid user admin from 10.0.0.1 port 42345 ssh2
+Jul 15 09:15:12 server1 sshd[54321]: Failed password for invalid user admin from 10.0.0.1 port 42345 ssh2
+Jul 15 09:15:13 server1 sshd[54321]: error: maximum authentication attempts exceeded for invalid user admin from 10.0.0.1 port 42345 ssh2 [preauth]
+Jul 15 09:16:00 server1 sshd[54321]: Disconnecting: Too many authentication failures for invalid user admin from 10.0.0.1 port 42345 [preauth]
+Jul 15 09:20:01 server1 CRON[5679]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 15 09:30:45 server1 sshd[12345]: error: PAM: Authentication failure for illegal user guest from 10.0.0.5
+Jul 15 09:35:55 server1 sshd[54322]: Accepted password for user2 from 192.168.1.20 port 34256 ssh2
+Jul 15 09:36:00 server1 sshd[54322]: pam_unix(sshd:session): session opened for user user2 by (uid=0)
+Jul 15 09:45:23 server1 kernel: [763729.536789] CRITICAL: CPU temperature exceeded threshold, shutting down.
+Jul 15 09:45:24 server1 systemd[1]: Stopping The Apache HTTP Server...
+Jul 15 09:45:25 server1 systemd[1]: Stopped The Apache HTTP Server.
+Jul 15 09:45:26 server1 systemd[1]: Started Cleanup of Temporary Directories.
+Jul 15 09:50:34 server1 systemd[1]: Starting Daily apt upgrade and clean activities...
+Jul 15 09:51:12 server1 kernel: [763800.124578] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Jul 15 09:52:13 server1 systemd[1]: apt-daily-upgrade.service: Main process exited, code=exited, status=1/FAILURE
+Jul 15 09:52:13 server1 systemd[1]: apt-daily-upgrade.service: Unit entered failed state.
+Jul 15 09:52:13 server1 systemd[1]: apt-daily-upgrade.service: Failed with result 'exit-code'.
+Jul 15 09:55:22 server1 sshd[54323]: Fatal error: Corrupted MAC on input.
+Jul 15 09:55:23 server1 kernel: [763814.236985] FATAL: Memory allocation failed in kernel module.
+Jul 15 09:56:00 server1 systemd[1]: Reached target Shutdown.
