@@ -1,0 +1,7 @@
+Jul 15 08:45:34 server1 kernel: [763425.643212] EXT4-fs error (device sda1): ext4_find_entry:1453: inode #56732: comm rsync: reading directory lblock 0
+Jul 15 08:45:34 server1 kernel: [763425.643214] EXT4-fs (sda1): previous I/O error to superblock detected
+Jul 15 09:15:13 server1 sshd[54321]: error: maximum authentication attempts exceeded for invalid user admin from 10.0.0.1 port 42345 ssh2 [preauth]
+Jul 15 09:30:45 server1 sshd[12345]: error: PAM: Authentication failure for illegal user guest from 10.0.0.5
+Jul 15 09:45:23 server1 kernel: [763729.536789] CRITICAL: CPU temperature exceeded threshold, shutting down.
+Jul 15 09:55:22 server1 sshd[54323]: Fatal error: Corrupted MAC on input.
+Jul 15 09:55:23 server1 kernel: [763814.236985] FATAL: Memory allocation failed in kernel module.

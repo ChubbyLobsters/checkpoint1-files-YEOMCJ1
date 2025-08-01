@@ -1,0 +1,10 @@
+      8 15
+      7 server1
+      7 Jul
+      5 kernel
+      5 error
+      5 09
+      5 0
+      4 45
+      3 sshd
+      2 user

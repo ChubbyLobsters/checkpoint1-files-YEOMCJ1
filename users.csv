@@ -2,3 +2,13 @@
 rob,admin/lecturer,/bin/bash
 ola,lecturer,/bin/bash
 andy,student,/bin/bash
+jane_doe,marketing,/bin/zsh
+invaliduser!,$invalidgroup,/bin/bash
+tom,,/bin/bash
+mary,finance,
+alex,dev-team,/bin/fish
+sam,admin,/bin/bash
+kate,admin/lecturer,/bin/bash
+mike,student,/bin/bash
+lucy,marketing,/bin/bash
+bob,admin/lecturer,/nonexistent/shell
